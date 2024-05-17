@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "trading-bot"
+version = "0.1.0"
+description = ""
+authors = ["gchu <gchu@zendesk.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.2"
+requests = "^2.31.0"
+jupyterlab = "^4.2.0"
+pytz = "^2024.1"
+seaborn = "^0.13.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
