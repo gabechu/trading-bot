@@ -19,6 +19,7 @@ paxml = "1.4.0"
 jax = {extras = ["cuda12_pip"], version = "0.4.26"}
 jaxlib = "0.4.26"
 utilsforecast = "^0.1.10"
+python-dotenv = "^1.0.1"
 
 
 [build-system]
