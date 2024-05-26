@@ -6,12 +6,19 @@ authors = ["gchu <gchu@zendesk.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
-pandas = "^2.2.2"
+python = ">=3.10,<3.11"
+pandas = ">=2.1.4"
 requests = "^2.31.0"
 jupyterlab = "^4.2.0"
 pytz = "^2024.1"
 seaborn = "^0.13.2"
+huggingface-hub = {extras = ["cli"], version = "^0.23.0"}
+einshape = ">=1.0.0"
+numpy = ">=1.26.4"
+paxml = "1.4.0"
+jax = {extras = ["cuda12_pip"], version = "0.4.26"}
+jaxlib = "0.4.26"
+utilsforecast = "^0.1.10"
 
 
 [build-system]
