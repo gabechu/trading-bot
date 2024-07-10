@@ -16,6 +16,7 @@ huggingface-hub = {extras = ["cli"], version = "^0.23.0"}
 numpy = ">=1.26.4"
 utilsforecast = "^0.1.10"
 python-dotenv = "^1.0.1"
+yfinance = "^0.2.40"
 
 
 [build-system]
