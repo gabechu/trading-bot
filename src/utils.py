@@ -1,5 +1,4 @@
 from pathlib import Path
-import pandas as pd
 
 
 def create_directory(filepath: str) -> None:
